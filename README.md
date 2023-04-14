@@ -1,6 +1,7 @@
 # Call Center Analysis
 
-![Dashvizz](https://user-images.githubusercontent.com/103915142/231853938-07ff8bc2-333d-488e-8e2e-69bff0ae9137.jpg)
+![Dashboard](https://user-images.githubusercontent.com/103915142/232046216-1ba939cc-d450-4837-984f-bcf12f0e59af.jpg)
+
 #
 
 Imagine you're the manager of a busy call center for a large telecommunications company. Every day, your team receives hundreds of calls from customers with a variety of questions and issues. You're always looking for ways to improve the customer experience and increase efficiency, but you're not quite sure where to start.
