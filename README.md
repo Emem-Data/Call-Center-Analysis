@@ -30,9 +30,9 @@ AFTER -- Trasformed Data
 
 ![after excel](https://user-images.githubusercontent.com/103915142/231898940-e53d5ad3-e513-4eaa-b516-2342b6630667.jpg)
 
-### 3. Data Analysis
+## 3. Data Analysis
 
-> **Question 1:** What day, time, and month were the busiest?
+> ### **QUESTION 1:** WHAT DAY, TIME, AND MONTH WERE THE BUSIEST?
 
 Knowing the busiest day, time, and month for a call center is crucial in optimizing staff scheduling and resource allocation to ensure high customer satisfaction, minimize wait times, and maximize operational efficiency.
 
@@ -48,6 +48,49 @@ Least Busiest Days                                                              
 VISUALS:
 
 ![2a d](https://user-images.githubusercontent.com/103915142/231905837-5f99c8c3-8aca-4e29-8336-a32b6812caed.jpg)
+
+![2b c](https://user-images.githubusercontent.com/103915142/232043464-42ce4e5a-1260-4e3e-8245-85beefcd3a9e.jpg)
+
+
+
+> ### **QUESTION 2:** WHAT TOPICS WERE DISCUSSED THE MOST?
+By understanding the most discussed topics, the call center can identify areas where their customer service is falling short. This information can be used to train agents on how to handle these topics better, which can improve the overall customer experience.
+Also, if customers are repeatedly calling about the same issue, it could indicate a problem that needs to be addressed. By addressing the root cause of the issue, call center organizations can reduce the number of calls they receive about that topic.
+
+Topics Discussed the Most                                                                                   |  Topics by Month
+-------------------------------------------------------------------------------------------------------------|------------------------- 
+![3a](https://user-images.githubusercontent.com/103915142/231994848-07efcfa1-e4af-4bfe-a206-f9a0ab1dc597.jpg)| ![3b](https://user-images.githubusercontent.com/103915142/231996053-874b8b16-17da-400f-bbc7-c91c7afc6719.jpg)
+
+> ### **QUESTION 3:** HOW WELL WERE THE TOPICS TREATED?
+
+![3c](https://user-images.githubusercontent.com/103915142/232044889-e3db6be9-beb2-40ed-8143-9a45bf7ec998.jpg)
+
+
+So I began to wonder why these topics were unaswered or unresolved, especially for the topics on Techical support. 
+I checked the "Average speed of answer in seconds by Topics" to see if I could get an answer. But to my suprise, it was revealed that no an average, techical support calls were picked in 53 seconds, which is the fastest call by topic answered averagely.
+
+![4a](https://user-images.githubusercontent.com/103915142/232004429-ea1f9144-45a5-4eb3-9c8e-3940aba6c502.jpg)
+
+>> __If the calls for Techical supports were aswered the fastest averagely, the why is it still the most uaswered ad uresolved topic?__
+
+I suspected it had to do with the agents, maybe someone has a habit of keeping customers waiting for too long. So I checked and I wasn't wrong afterall!.
+
+![4b](https://user-images.githubusercontent.com/103915142/232005670-e902a264-e5fd-4965-9be3-ca98588f7e10.jpg)
+
+The table above shows that Joe has mostly been answering calls later than other agents. Averagely Joe picked Techical support calls after ooe mintues, and it is possible the caller got tired of waiting and hung up. 
+
+> ### **QUESTION 4:** AGENT AVERAGE SPEED OF ANSWER IN SECONDS?
+
+Call center organizations often have SLAs in place with their clients, which specify the maximum amount of time customers should wait before their calls are answered. By monitoring the average speed of answering calls, call center organizations can ensure that they are meeting these SLAs and avoid penalties for failing to do so.
+
+Table                                                                                                        |  Chart
+-------------------------------------------------------------------------------------------------------------|------------------------- 
+![5a](https://user-images.githubusercontent.com/103915142/232028044-1a7b3527-2de0-4cf7-b50e-3eecd1f98416.jpg)| ![5b](https://user-images.githubusercontent.com/103915142/232028080-404d14cc-4a5c-45d7-8d0b-d5f3922ab04d.jpg)
+
+
+> ### **QUESTION 5:** AGENT SATISFACTORY RATING?
+
+![6a](https://user-images.githubusercontent.com/103915142/232038940-27299773-699e-4cee-bbe7-b96802ee8e20.jpg)
 
 
 
