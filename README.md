@@ -103,11 +103,11 @@ Topics Discussed the Most                                                       
 
 
 So, I began to wonder why these topics were unanswered or unresolved, especially the topics on technical support. 
-I checked the "Average speed of answer in seconds by Topics" to see if I could get an answer. But to my surprise, it was revealed that no average, technical support calls were picked up in 53 seconds, which is the fastest call by topic answered average.
+I checked the "Average speed of answer in seconds by Topics" to see if I could get an answer. But to my surprise, it was revealed that on average, technical support calls were picked up in 53 seconds, which is the topic with the fastest answered call on an average.
 
 ![4a](https://user-images.githubusercontent.com/103915142/232004429-ea1f9144-45a5-4eb3-9c8e-3940aba6c502.jpg)
 
->> __If the calls for technical support were answered the fastest on average, why is it still the most unanswered and unresolved topic?__
+> __If the calls for technical support were answered the fastest on average, why is it still the most unanswered and unresolved topic?__
 
 I suspected it had to do with the agents, maybe someone has a habit of keeping customers waiting for too long. So I checked and I wasn't wrong after all!
 
@@ -154,7 +154,7 @@ Knowing the satisfaction rating of agents for a call center is crucial as it hel
 
 ## 4. DATA INSIGHTS
 
-### 1. When it comes to running a call center, it's essential to understand when your customers are calling and how busy your agents are. By analyzing call center data from January to March 2021, we gained insights into the busiest day, hour, and month. Here's what we found.
+### 1. When it comes to running a call center, it's essential to understand when your customers are calling and how busy your agents are. By analyzing call center data from January to March 2021, we gained insights into the busiest day, hour, and month. Here's what we found:
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;**The Busiest Day:**
@@ -214,7 +214,7 @@ We also analyzed the average speed of answer (ASA) for each topic, which measure
 
 ### 5. In any call center, the quality of service provided by agents is an essential factor in ensuring customer satisfaction. In my analysis, I explored the agent’s satisfactory ratings to find out how the customers perceive the services rendered by the different agents.
 
-&nbsp;&nbsp;&nbsp;&nbsp; Interestingly, despite Dan having the third slowest rate of response (SRR) to calls, he was the agent with the highest number of "5" satisfactory ratings, indicating that customers were more satisfied with his services compared to the other agents. Martha followed closely behind Dan in the rating, despite having an average SRR to calls. Jim and Diane, who had faster rates of response, were also highly rated by customers.
+&nbsp;&nbsp;&nbsp;&nbsp; Interestingly, despite Dan having the third slowest rate of response (SRR) to calls, he was the agent with the highest number of "5" satisfactory ratings, indicating that customers were more satisfied with his services compared to the other agents. Martha followed closely behind Dan in the rating, despite bagging the second slower rate of response to calls. Jim and Diane, who had faster rates of response, were also highly rated by customers.
 
 &nbsp;&nbsp;&nbsp;&nbsp; However, on the other hand, the ratings of Stewart and Joe were less impressive, with Joe having the least number of "5" ratings. Interestingly, even though Stewart had the third-fastest SRR to calls, his satisfactory ratings were among the lowest, indicating that customers might not have been satisfied with the quality of his services.
 
