@@ -11,36 +11,39 @@ That's where this analysis comes in. Over the course of few nights – Actually 
 So, buckle up and get ready for a deep dive into the call center dataset. In the following story, I’ll take you through the analysis step by step, highlighting the challenges faced, the insights uncovered, and the impact of my findings.
 
 ### 1. Data Gathering and Cleaning
-As mentioned earier, the dataset was gotten from a #DataChallenge WhatsApp group.
-I excitedly opened the file, and was quick to realize that the data was already cleaned, with all the missing values meaning the calls placed at that time wasn't answered and couldn't have been resolved too., making the data somewhat boring and predictable. All I had to do was replace all empty cells with 0 and ensured all numerical columns were in their right format.
-However, having a clean data was actually a blessing in disguise, as it saved me a lot of time and effort that would have been spent on cleaning the data myself. phew!
+
+
+As mentioned earlier, the dataset was gotten from a #DataChallenge WhatsApp group.
+I excitedly opened the file and quickly realized that the data was already cleaned, with all the missing values meaning the calls placed at that time weren't answered and couldn't have been resolved too, making the data somewhat boring and predictable. All I had to do was replace all empty cells with 0 and ensure all numerical columns were in the right format.
+However, having clean data was a blessing in disguise, as it saved me a lot of time and effort that would have been spent cleaning the data myself. phew!
 
 ### 2. Data Exploration
 **A**. There are 5001 rows and 14 columns. 
 
-**B**. I created 2 columns and extracted the months from the Date column and the hour the calls came through from the Time column. Well in the course of analyzing, I figured that I didn't need to extract the Hours because Excel Pivot table has features that provide such. Cool right!!
+**B**. I created 2 columns and extracted the months from the Date column and the hour the calls came through from the Time column. Well in the course of analyzing, I figured that I didn't need to extract the Hours because the Excel Pivot table has features that provide such. Cool right!!
 
-**C**. It should be noted that in the rating column, cells containing "0" values have their calls unanswered... So we would be careful when analysing the rating column.
+**C**. It should be noted that in the rating column, cells containing "0" values have their calls unanswered... So, we would be careful when analyzing the satisfaction rating column by excluding ratings of “0”.
 
 
 BEFORE -- Original Data
 
 ![before excel](https://user-images.githubusercontent.com/103915142/231898624-ec880b43-e2d9-4e28-8919-593e8c4f0842.jpg)
 
-AFTER -- Trasformed Data
+AFTER -- Transformed Data
 
 ![after excel](https://user-images.githubusercontent.com/103915142/231898940-e53d5ad3-e513-4eaa-b516-2342b6630667.jpg)
 
 ## 3. Data Analysis
 
-> ### **QUESTION 1:** WHAT DAY, TIME, AND MONTH WERE THE BUSIEST?
+> ### **QUESTION 1:** WHAT DAY, TIME AND MONTH WERE THE BUSIEST?
+
 
 
 <br>
 
 
 
-Knowing the busiest day, time, and month for a call center is crucial in optimizing staff scheduling and resource allocation to ensure high customer satisfaction,      minimize wait times, and maximize operational efficiency.
+Knowing the busiest day, time, and month for a call center is crucial in optimizing staff scheduling and resource allocation to ensure high customer satisfaction, minimize wait times, and maximize operational efficiency.
 
      
 Busiest Days                                                                                        |  Busiest Times
@@ -68,8 +71,9 @@ VISUALS:
 
 
 
-By understanding the most discussed topics, the call center can identify areas where their customer service is falling short. This information can be used to          train agents on how to handle these topics better, which can improve the overall customer experience.
-Also, if customers are repeatedly calling about the same issue, it could indicate a problem that needs to be addressed. By addressing the root cause of the issue,call center organizations can reduce the number of calls they receive about that topic.
+By understanding the most discussed topics, the call center can identify areas where their customer service is falling short. This information can be used to train agents on how to handle these topics better, which can improve the overall customer experience.
+Also, if customers are repeatedly calling about the same issue, it could indicate a problem that needs to be addressed. By addressing the root cause of the issue, call center organizations can reduce the number of calls they receive about that topic.
+
      
 Topics Discussed the Most                                                                                   |  Topics by Month
 -------------------------------------------------------------------------------------------------------------|------------------------- 
@@ -114,7 +118,7 @@ The table above shows that Joe has mostly been answering calls later than other 
 <br>
 
 
-Call center organizations often have SLAs in place with their clients, which specify the maximum amount of time customers should wait before their calls are            answered. By monitoring the average speed of answering calls, call center organizations can ensure that they are meeting these SLAs and avoid penalties for            failing to do so.
+Call center organizations often have SLAs in place with their clients, which specify the maximum amount of time customers should wait before their calls are answered. By monitoring the average speed of answering calls, call center organizations can ensure that they are meeting these SLAs and avoid penalties for failing to do so.
 
 Table                                                                                                        |  Chart
 -------------------------------------------------------------------------------------------------------------|------------------------- 
@@ -127,6 +131,12 @@ Table                                                                           
 
 > ### **QUESTION 5:** AGENT SATISFACTORY RATING?
 
+
+<br>
+
+
+
+Knowing the satisfaction rating on agents for a Call center is crucial as it helps to improve customer experience, increase retention rates, and boost overall business performance.
 
 <br>
 
